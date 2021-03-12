@@ -1,6 +1,6 @@
 
-module Pipes
-  module CreateUserSubscriptionSteps
+module Shared
+  module Steps
     class Serializer
 
       def audit

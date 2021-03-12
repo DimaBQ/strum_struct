@@ -1,7 +1,7 @@
 
 module Shared
   module Steps
-    class DeserializerWrap
+    class Deserializer
 
       def call
         Strum::JsonDeserializer.call(input)
